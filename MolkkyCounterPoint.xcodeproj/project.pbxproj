@@ -11,7 +11,53 @@
 		E36062A42BE680640025D152 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062A32BE680640025D152 /* ContentView.swift */; };
 		E36062A62BE680660025D152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36062A52BE680660025D152 /* Assets.xcassets */; };
 		E36062AA2BE680660025D152 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36062A92BE680660025D152 /* Preview Assets.xcassets */; };
+		E36062B52BE680E50025D152 /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B22BE680E50025D152 /* GameBrain.swift */; };
+		E36062B62BE680E50025D152 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B32BE680E50025D152 /* Player.swift */; };
+		E36062B72BE680E50025D152 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B42BE680E50025D152 /* Message.swift */; };
+		E36062BC2BE680ED0025D152 /* InscriptionDesParticipant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B82BE680ED0025D152 /* InscriptionDesParticipant.swift */; };
+		E36062BD2BE680ED0025D152 /* MolkyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B92BE680ED0025D152 /* MolkyGrid.swift */; };
+		E36062BE2BE680ED0025D152 /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062BA2BE680ED0025D152 /* PageDemarrage.swift */; };
+		E36062C02BE681020025D152 /* EcranDejeux.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062BF2BE681020025D152 /* EcranDejeux.swift */; };
+		E36062C22BE681070025D152 /* EcranClassementFin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062C12BE681070025D152 /* EcranClassementFin.swift */; };
+		E36062C52BE681150025D152 /* MolkyGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062C42BE681150025D152 /* MolkyGridController.swift */; };
+		E36062C72BE681230025D152 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062C62BE681230025D152 /* WatchConnector.swift */; };
+		E3FE11152BF4AC900013DA0F /* MolkkyCounterPointWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE11142BF4AC900013DA0F /* MolkkyCounterPointWatchApp.swift */; };
+		E3FE11172BF4AC900013DA0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE11162BF4AC900013DA0F /* ContentView.swift */; };
+		E3FE11192BF4AC900013DA0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FE11182BF4AC900013DA0F /* Assets.xcassets */; };
+		E3FE111C2BF4AC900013DA0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FE111B2BF4AC900013DA0F /* Preview Assets.xcassets */; };
+		E3FE111F2BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E3FE11122BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3FE11252BF4ACFB0013DA0F /* WatchToIos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE11242BF4ACFB0013DA0F /* WatchToIos.swift */; };
+		E3FE11272BF4AD010013DA0F /* PageDemarrage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE11262BF4AD010013DA0F /* PageDemarrage.swift */; };
+		E3FE11292BF4AD060013DA0F /* EcranClassementFinWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE11282BF4AD060013DA0F /* EcranClassementFinWatch.swift */; };
+		E3FE112B2BF4AD110013DA0F /* EcranJeuxWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FE112A2BF4AD110013DA0F /* EcranJeuxWatch.swift */; };
+		E3FE112C2BF4AD550013DA0F /* GameBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B22BE680E50025D152 /* GameBrain.swift */; };
+		E3FE112D2BF4AD550013DA0F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B42BE680E50025D152 /* Message.swift */; };
+		E3FE112E2BF4AD550013DA0F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36062B32BE680E50025D152 /* Player.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3FE111D2BF4AC900013DA0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E36062962BE680640025D152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FE11112BF4AC900013DA0F;
+			remoteInfo = "MolkkyCounterPointWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3FE11202BF4AC900013DA0F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E3FE111F2BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E360629E2BE680640025D152 /* MolkkyCounterPoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MolkkyCounterPoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +66,36 @@
 		E36062A52BE680660025D152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E36062A72BE680660025D152 /* MolkkyCounterPoint.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MolkkyCounterPoint.entitlements; sourceTree = "<group>"; };
 		E36062A92BE680660025D152 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E36062B22BE680E50025D152 /* GameBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBrain.swift; sourceTree = "<group>"; };
+		E36062B32BE680E50025D152 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E36062B42BE680E50025D152 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		E36062B82BE680ED0025D152 /* InscriptionDesParticipant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionDesParticipant.swift; sourceTree = "<group>"; };
+		E36062B92BE680ED0025D152 /* MolkyGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolkyGrid.swift; sourceTree = "<group>"; };
+		E36062BA2BE680ED0025D152 /* PageDemarrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
+		E36062BF2BE681020025D152 /* EcranDejeux.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranDejeux.swift; sourceTree = "<group>"; };
+		E36062C12BE681070025D152 /* EcranClassementFin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranClassementFin.swift; sourceTree = "<group>"; };
+		E36062C42BE681150025D152 /* MolkyGridController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MolkyGridController.swift; sourceTree = "<group>"; };
+		E36062C62BE681230025D152 /* WatchConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		E3FE11122BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MolkkyCounterPointWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FE11142BF4AC900013DA0F /* MolkkyCounterPointWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolkkyCounterPointWatchApp.swift; sourceTree = "<group>"; };
+		E3FE11162BF4AC900013DA0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E3FE11182BF4AC900013DA0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3FE111B2BF4AC900013DA0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E3FE11242BF4ACFB0013DA0F /* WatchToIos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchToIos.swift; sourceTree = "<group>"; };
+		E3FE11262BF4AD010013DA0F /* PageDemarrage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageDemarrage.swift; sourceTree = "<group>"; };
+		E3FE11282BF4AD060013DA0F /* EcranClassementFinWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranClassementFinWatch.swift; sourceTree = "<group>"; };
+		E3FE112A2BF4AD110013DA0F /* EcranJeuxWatch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcranJeuxWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E360629B2BE680640025D152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FE110F2BF4AC900013DA0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				E36062A02BE680640025D152 /* MolkkyCounterPoint */,
+				E3FE11132BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App */,
 				E360629F2BE680640025D152 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				E360629E2BE680640025D152 /* MolkkyCounterPoint.app */,
+				E3FE11122BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +126,12 @@
 		E36062A02BE680640025D152 /* MolkkyCounterPoint */ = {
 			isa = PBXGroup;
 			children = (
+				E36062C62BE681230025D152 /* WatchConnector.swift */,
 				E36062A12BE680640025D152 /* MolkkyCounterPointApp.swift */,
 				E36062A32BE680640025D152 /* ContentView.swift */,
+				E36062B12BE680C00025D152 /* Model */,
+				E36062BB2BE680ED0025D152 /* View */,
+				E36062C32BE6810F0025D152 /* Controler */,
 				E36062A52BE680660025D152 /* Assets.xcassets */,
 				E36062A72BE680660025D152 /* MolkkyCounterPoint.entitlements */,
 				E36062A82BE680660025D152 /* Preview Content */,
@@ -69,6 +147,59 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		E36062B12BE680C00025D152 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E36062B22BE680E50025D152 /* GameBrain.swift */,
+				E36062B42BE680E50025D152 /* Message.swift */,
+				E36062B32BE680E50025D152 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E36062BB2BE680ED0025D152 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E36062B82BE680ED0025D152 /* InscriptionDesParticipant.swift */,
+				E36062BF2BE681020025D152 /* EcranDejeux.swift */,
+				E36062C12BE681070025D152 /* EcranClassementFin.swift */,
+				E36062B92BE680ED0025D152 /* MolkyGrid.swift */,
+				E36062BA2BE680ED0025D152 /* PageDemarrage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E36062C32BE6810F0025D152 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				E36062C42BE681150025D152 /* MolkyGridController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		E3FE11132BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E3FE11142BF4AC900013DA0F /* MolkkyCounterPointWatchApp.swift */,
+				E3FE112A2BF4AD110013DA0F /* EcranJeuxWatch.swift */,
+				E3FE11162BF4AC900013DA0F /* ContentView.swift */,
+				E3FE11282BF4AD060013DA0F /* EcranClassementFinWatch.swift */,
+				E3FE11262BF4AD010013DA0F /* PageDemarrage.swift */,
+				E3FE11242BF4ACFB0013DA0F /* WatchToIos.swift */,
+				E3FE11182BF4AC900013DA0F /* Assets.xcassets */,
+				E3FE111A2BF4AC900013DA0F /* Preview Content */,
+			);
+			path = "MolkkyCounterPointWatch Watch App";
+			sourceTree = "<group>";
+		};
+		E3FE111A2BF4AC900013DA0F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E3FE111B2BF4AC900013DA0F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -79,14 +210,34 @@
 				E360629A2BE680640025D152 /* Sources */,
 				E360629B2BE680640025D152 /* Frameworks */,
 				E360629C2BE680640025D152 /* Resources */,
+				E36062C82BE6818A0025D152 /* ShellScript */,
+				E3FE11202BF4AC900013DA0F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3FE111E2BF4AC900013DA0F /* PBXTargetDependency */,
+			);
+			name = MolkkyCounterPoint;
+			productName = MolkkyCounterPoint;
+			productReference = E360629E2BE680640025D152 /* MolkkyCounterPoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3FE11112BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3FE11232BF4AC900013DA0F /* Build configuration list for PBXNativeTarget "MolkkyCounterPointWatch Watch App" */;
+			buildPhases = (
+				E3FE110E2BF4AC900013DA0F /* Sources */,
+				E3FE110F2BF4AC900013DA0F /* Frameworks */,
+				E3FE11102BF4AC900013DA0F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MolkkyCounterPoint;
-			productName = MolkkyCounterPoint;
-			productReference = E360629E2BE680640025D152 /* MolkkyCounterPoint.app */;
+			name = "MolkkyCounterPointWatch Watch App";
+			productName = "MolkkyCounterPointWatch Watch App";
+			productReference = E3FE11122BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,6 +251,9 @@
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					E360629D2BE680640025D152 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E3FE11112BF4AC900013DA0F = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -118,6 +272,7 @@
 			projectRoot = "";
 			targets = (
 				E360629D2BE680640025D152 /* MolkkyCounterPoint */,
+				E3FE11112BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -132,19 +287,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3FE11102BF4AC900013DA0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FE111C2BF4AC900013DA0F /* Preview Assets.xcassets in Resources */,
+				E3FE11192BF4AC900013DA0F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E36062C82BE6818A0025D152 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint --fix && swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E360629A2BE680640025D152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E36062C02BE681020025D152 /* EcranDejeux.swift in Sources */,
+				E36062C72BE681230025D152 /* WatchConnector.swift in Sources */,
+				E36062B62BE680E50025D152 /* Player.swift in Sources */,
 				E36062A42BE680640025D152 /* ContentView.swift in Sources */,
+				E36062B72BE680E50025D152 /* Message.swift in Sources */,
+				E36062C22BE681070025D152 /* EcranClassementFin.swift in Sources */,
+				E36062BE2BE680ED0025D152 /* PageDemarrage.swift in Sources */,
+				E36062BD2BE680ED0025D152 /* MolkyGrid.swift in Sources */,
+				E36062B52BE680E50025D152 /* GameBrain.swift in Sources */,
 				E36062A22BE680640025D152 /* MolkkyCounterPointApp.swift in Sources */,
+				E36062C52BE681150025D152 /* MolkyGridController.swift in Sources */,
+				E36062BC2BE680ED0025D152 /* InscriptionDesParticipant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3FE110E2BF4AC900013DA0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FE112C2BF4AD550013DA0F /* GameBrain.swift in Sources */,
+				E3FE112D2BF4AD550013DA0F /* Message.swift in Sources */,
+				E3FE112E2BF4AD550013DA0F /* Player.swift in Sources */,
+				E3FE11172BF4AC900013DA0F /* ContentView.swift in Sources */,
+				E3FE11252BF4ACFB0013DA0F /* WatchToIos.swift in Sources */,
+				E3FE11152BF4AC900013DA0F /* MolkkyCounterPointWatchApp.swift in Sources */,
+				E3FE112B2BF4AD110013DA0F /* EcranJeuxWatch.swift in Sources */,
+				E3FE11292BF4AD060013DA0F /* EcranClassementFinWatch.swift in Sources */,
+				E3FE11272BF4AD010013DA0F /* PageDemarrage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3FE111E2BF4AC900013DA0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FE11112BF4AC900013DA0F /* MolkkyCounterPointWatch Watch App */;
+			targetProxy = E3FE111D2BF4AC900013DA0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		E36062AB2BE680660025D152 /* Debug */ = {
@@ -184,7 +402,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -245,7 +463,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -264,6 +482,7 @@
 		E36062AE2BE680660025D152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MolkkyCounterPoint/MolkkyCounterPoint.entitlements;
@@ -302,6 +521,7 @@
 		E36062AF2BE680660025D152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MolkkyCounterPoint/MolkkyCounterPoint.entitlements;
@@ -337,6 +557,69 @@
 			};
 			name = Release;
 		};
+		E3FE11212BF4AC900013DA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MolkkyCounterPointWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MolkkyCounterPointWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = EG..MolkkyCounterPoint;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG..MolkkyCounterPoint.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		E3FE11222BF4AC900013DA0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MolkkyCounterPointWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = SYWMG74HLL;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MolkkyCounterPointWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = EG..MolkkyCounterPoint;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EG..MolkkyCounterPoint.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -354,6 +637,15 @@
 			buildConfigurations = (
 				E36062AE2BE680660025D152 /* Debug */,
 				E36062AF2BE680660025D152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3FE11232BF4AC900013DA0F /* Build configuration list for PBXNativeTarget "MolkkyCounterPointWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3FE11212BF4AC900013DA0F /* Debug */,
+				E3FE11222BF4AC900013DA0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
